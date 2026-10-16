@@ -247,6 +247,13 @@ input[type=range]:focus-visible { outline: 2px solid var(--blue); outline-offset
 .doc-date { color: var(--sepia); font-style: italic; margin-top: 10px; }
 .doc-lead { font-family: var(--fell); font-size: clamp(1.4rem, 3.5vw, 1.8rem); line-height: 1.35; margin-top: clamp(24px, 4vw, 36px); }
 
+/* --- Domande frequenti (pagina supporto) ----------------------------------------------------------------------- */
+.faq { border-top: 1px solid var(--rule); max-width: 40rem; }
+.faq details { border-bottom: 1px solid var(--rule-soft); padding-block: 14px; }
+.faq summary { cursor: pointer; font-family: var(--fell); font-size: clamp(1.2rem, 3vw, 1.45rem); line-height: 1.25; }
+.faq summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
+.faq details p { margin-top: 10px; }
+
 @media (max-width: 420px) {
   .actions > * { width: 100%; }
   .badge { align-items: flex-start; }
